@@ -8,7 +8,7 @@ It's a simple tool to keep track of your daily activities and improve your produ
 ## Features
 - **Add Tasks:** Easily add new tasks to your to-do list.
 - **Remove Tasks:** Remove tasks that are no longer needed.
-- **View Task List** View task list in its entirety.
+- **View Task List:** View the task list in its entirety.
 
 ## Usage
 1. Run the application:
