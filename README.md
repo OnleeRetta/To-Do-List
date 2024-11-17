@@ -19,14 +19,22 @@ to_do_list_original.py
 - **Remove a Task:** Select a number to remove an added task from the list.
 - **View Task List:** Select a number to view added tasks.
 
-3. Make your changes and commit them:
-git commit -m 'Add new feature'
+3. Error Handling
+- **Implement error handling** Uses try, except, else, and finally blocks to catch errors.
+- **Alerts for invalid input**  Notifies the user if they provide invalid input.
+- **Alerts for empty task list** Notifies the user if there are no tasks to view.
+- **Alerts for nonexistent task** Notifies the user if they try to delete a task that doesn't exist.
+- **Alert for invalid optio selection** Notifies the user if they select an option on the main menu that doesn't exist.
 
-4. Push to the branch:
-git push origin feature-branch-name
+## Installation
+1. Clone the repository to your local machine using: https://github.com/OnleeRetta/To-Do-List
 
+## Contributing 
+1. Fork the repository. 
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push to the branch.
 5. Open a pull request.
-
 
 ## Contact
 For any questions or feedback, please contact:
@@ -37,5 +45,5 @@ For any questions or feedback, please contact:
 ---
 
 Happy task managing!
-Feel free to customize this template to fit the specifics of your to-do list application and any additional features you might have. If you need any more help or tweaks, just let me know!
+Feel free to customize this template to fit the specifics of your to-do list application and any additional features you might have. 
 
