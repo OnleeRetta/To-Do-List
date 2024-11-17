@@ -40,7 +40,7 @@ to_do_list_original.py
 For any questions or feedback, please contact:
 - **Onlee((Only)) Retta**
 - **Email:** onleeretta73@gmail.com
-- **GitHub:** [Onlee Retta](https://github.com/OnleeRetta))
+- **GitHub:** [Onlee Retta](https://github.com/OnleeRetta)
 
 ---
 
