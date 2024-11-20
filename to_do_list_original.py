@@ -58,7 +58,7 @@ def main():  # Main function to run the To-Do List application.
             elif choice == 2:
                 view_tasks()
             elif choice == 3:
-                delete_task()
+                remove_task()
             elif choice == 4:
                 print("Goodbye!")
                 break
