@@ -27,7 +27,7 @@ to_do_list_original.py
 - **Alert for invalid optio selection** Notifies the user if they select an option on the main menu that doesn't exist.
 
 ## Installation
-1. Clone the repository to your local machine using: https://github.com/OnleeRetta/To-Do-List
+1. Clone the repository to your local machine using: [https://github.com/OnleeRetta/To-Do-List](https://github.com/OnleeRetta/To-Do-List/tree/main)
 
 ## Contributing 
 1. Fork the repository. 
