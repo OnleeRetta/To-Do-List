@@ -9,7 +9,7 @@ def display_menu():  # Displays the main menu with options.
     )
     print("1. Add Task")
     print("2. View Tasks")
-    print("3. Delete Task")
+    print("3. Remove Task")
     print("4. Quit")
 
 
@@ -32,16 +32,16 @@ def view_tasks():  # Displays all tasks in the list.
         print("Your task list is empty.")
 
 
-def delete_task():  # Deletes a specified task from the list.
+def remove_task():  # Deletes a specified task from the list.
     if tasks:
-            task_num = int(input("Enter the task number to delete: "))
+            task_num = int(input("Enter the task number you want to remove: "))
             if 1 <= task_num <= len(tasks):
                 removed_task = tasks.pop(task_num - 1)
-                print(f"Task '{removed_task}' has been deleted.")
+                print(f"Task '{removed_task}' has been removed.")
             else:
                 print("Please enter valid task number: ")
     else:
-        print("No tasks to delete.")
+        print("No tasks to remove.")
 
 
 def main():  # Main function to run the To-Do List application.
@@ -54,7 +54,7 @@ def main():  # Main function to run the To-Do List application.
         elif choice == 2:
             view_tasks()
         elif choice == 3:
-            delete_task()
+           remove_task()
         elif choice == 4:
             print("Goodbye!")
             break
